@@ -83,7 +83,7 @@ Discussion/Questions:
 
 
 
-The full commands can be downloaded here [solution](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/integrative_assigment_commands.sh)
+The full commands can be downloaded here [solution](https://github.com/bioinformaticsdotca/HTSeq_2017/blob/master/integrative_assigment_commands.sh)
 
 
 
