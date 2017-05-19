@@ -1,11 +1,11 @@
 ---
 layout: tutorial_page
-permalink: /high-throughput_biology_2017_IA_HTBio_lab
-title: HT-Biology Integrated Assignment
+permalink: /HTSeq_2017_IA_lab
+title: HTSeq Integrated Assignment
 header1: Workshop Pages for Students
-header2: High-Throughput Biology - From Sequence to Networks Integrated Assignment HT-Seq
-image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/high-throughput_biology_IA_HT-Seq
+header2: Informatics on High-Throughput Sequencing Data
+image: /site_images/CBW_High-throughput_icon.jpg
+home: https://bioinformaticsdotca.github.io/htseq_2017
 ---
 
 
