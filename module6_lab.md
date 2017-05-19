@@ -46,7 +46,7 @@ If you run `ls` you should now be able to see four files of sequencing data.
 
 ## Data Quality Control
 
-In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have provided two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets, and a human genome and difficult-to-assemble fish dataset, can be found [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_lab_supplement.md); feel free to run these commands if you have spare time later today or during the week.
+In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have provided two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets, and a human genome and difficult-to-assemble fish dataset, can be found [here](https://github.com/bioinformaticsdotca/HTSeq_2017/blob/master/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement); feel free to run these commands if you have spare time later today or during the week.
 
 Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x (blue) and the 50x (red) datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
 
@@ -101,7 +101,7 @@ Our data set also includes a higher-coverage Oxford Nanopore data set (50X). Thi
 cp ~/CourseData/HT_data/Module6/results/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.50x.canu-contigs.fasta
 ```
 
-The command used to generate the nanopore assembly can be found [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_lab_supplement.md).
+The command used to generate the nanopore assembly can be found [here](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement).
 
 ## Assessing the quality of your assemblies using a reference
 
