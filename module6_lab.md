@@ -24,7 +24,7 @@ In this lab we will perform de novo genome assembly of a bacterial genome. You w
 
 ## Data Sets
 
-In this lab we will use a bacterial data set to demonstrate genome assembly. This data set consists of sequencing reads for Escherichia coli. E. coli is a great data set for getting started on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and has a high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome. For the assembly task we've selected reads for a 1Mbp segment of the genome so the assemblies will complete during the lab session.
+In this lab we will use a bacterial data set to demonstrate genome assembly. This data set consists of sequencing reads for Escherichia coli. E. coli is a great data set for getting started on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and has a high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome. The assemblies you will run later using `spades` and `canu` use a read set that is restricted to a one megabase region of the E. coli genome. This is to reduce the amount of compute time the assemblies take, so that they complete during this lab. Running a whole genome assembly uses the exact same set of commands and the results you will obtain are comparable to assembling the entire genome.
 
 ## Data Preparation
 
@@ -42,11 +42,11 @@ For convenience, we'll make symbolic links to the data sets that we'll work with
 ls ~/CourseData/HT_data/Module6/ecoli* | xargs -i ln -s {}
 ```
 
-If you run `ls` you should now be able to see four files of sequencing data.
+If you run `ls` you should now be able to see three files of sequencing data.
 
 ## Data Quality Control
 
-In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have provided two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets, and a human genome and difficult-to-assemble fish dataset, can be found [here](https://github.com/bioinformaticsdotca/HTSeq_2017/blob/master/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement); feel free to run these commands if you have spare time later today or during the week.
+In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have generated a report for two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets, and a human genome and difficult-to-assemble fish dataset, can be found [here](https://github.com/bioinformaticsdotca/HTSeq_2017/blob/master/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement).
 
 Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x (blue) and the 50x (red) datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
 
@@ -68,7 +68,7 @@ cp ecoli-illumina-50-spades/contigs.fasta assemblies/ecoli.illumina.50x.spades-c
 We can now start assessing the quality of our assembly. We typically measure the quality of an assembly using three factors:
 
 - Contiguity: Long contigs are better than short contigs as long contigs give more information about the structure of the genome (for example, the order of genes)
-- Completeness: Most of the genome should be assembled into contigs with few regions missing from the assembly
+- Completeness: Most of the genome should be assembled into contigs with few regions missing from the assembly (remember for this exercise we are only assembling one megabase of the genome, not the entire genome)
 - Accuracy: The assembly should have few large-scale /misassemblies/ and /consensus errors/ (mismatches or insertions/deletions)
 
 We'll use `abyss-fac.pl` to calculate how contiguous our spades assembly is. Typically there will be a lot of short "leftover" contigs consisting of repetitive or low-complexity sequence, or reads with a very high error rate that could not be assembled. We don't want to include these in our statistics so we'll only use contigs that are at least 500bp in length (protip: piping tabular data into `column -t` will format the output so the columns nicely line up):
@@ -77,7 +77,7 @@ We'll use `abyss-fac.pl` to calculate how contiguous our spades assembly is. Typ
 abyss-fac.pl -t 500 assemblies/ecoli.illumina.50x.spades-contigs.fasta | column -t
 ```
 
-The N50 statistic is the most commonly used measure of assembly contiguity. An N50 of x means that 50% of the assembly is represented in contigs x bp or longer. What is the N50 of the spades assembly?
+The N50 statistic is the most commonly used measure of assembly contiguity. An N50 of x means that 50% of the assembly is represented in contigs x bp or longer. What is the N50 of the spades assembly? How many contigs were produced?
 
 ## E. coli Genome Assembly with Long Reads
 
