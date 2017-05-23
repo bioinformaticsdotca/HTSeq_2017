@@ -24,7 +24,7 @@ python sga-preqc-report.py ecoli.illumina.15x.preqc ecoli.illumina.50x.preqc
 ## Assembling the Oxford Nanopore Data
 
 ```
-canu gnuplotTested=true -p ecoli-nanopore-canu -d ecoli-nanopore-auto genomeSize=4.6m -nanopore-raw ecoli.nanopore.25x.fasta
+canu overlapper=mhap utgReAlign=true gnuplotTested=true -p ecoli-nanopore-canu -d ecoli-nanopore-auto genomeSize=4.6m -nanopore-raw ecoli.nanopore.50x.fastq
 ```
 
 
