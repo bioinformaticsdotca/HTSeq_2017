@@ -24,7 +24,7 @@ In this lab we will perform de novo genome assembly of a bacterial genome. You w
 
 ## Data Sets
 
-In this lab we will use a bacterial data set to demonstrate genome assembly. This data set consists of sequencing reads for Escherichia coli. E. coli is a great data set for getting started on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and has a high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome. These reads are from a one megabase segment of the E. coli genome to allow the assemblies to complete in a reasonable amount of time.
+In this lab we will use a bacterial data set to demonstrate genome assembly. This data set consists of sequencing reads for Escherichia coli. E. coli is a great data set for getting started on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and has a high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome. For the assembly task we've selected reads for a 1Mbp segment of the genome so the assemblies will complete during the lab session.
 
 ## Data Preparation
 
