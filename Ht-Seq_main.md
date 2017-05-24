@@ -30,31 +30,31 @@ Coming soon!
 
 *<font color="#827e9c">Ann Meyer</font>*
 
-[Lecture](https://bioinformatics.ca/htseq2017mod0)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod0)
 
 ## Module 1: Introduction to High-throughput Sequencing
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod1)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod1)
 
 ## Module 2: Data Visualization
 
 *<font color="#827e9c">Florence Cavalli</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod2)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod2)
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module2_lab)
+[Lab Practical](https://bioinformaticsdotca.github.io/HTSeq_2017_module2_lab)
 
 ## Module 3: Genome Alignment
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod3)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod3)
 
 [Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/AWS_setup)
 
-[Lecture](https://bioinformatics.ca/htseq2017mod3b)  
+[Lecture](https://bioinformatics.ca/htseq-2017-mod3b)  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbw46.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbw46.dyndns.info/private/CBWNY.ppk).
 
@@ -69,7 +69,7 @@ Coming soon!
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod4)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod4)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)  
 [Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/README.md)
@@ -78,7 +78,7 @@ Coming soon!
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod5)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod5)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)  
 [Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module5/blob/master/README.md)  
@@ -87,14 +87,14 @@ Coming soon!
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq2017mod6)
+[Lecture](https://bioinformatics.ca/htseq-2017-mod6)
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab)
+[Lab Practical](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab)
 
-[Supplemental](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab_supplement)
+[Supplemental](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement)
 
 ## Integrated Assignment
 
-[Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_IA_HTBio_lab)
+[Integrated Assignment](https://bioinformaticsdotca.github.io/HTSeq_2017_IA_lab)
 
 ***
