@@ -60,6 +60,10 @@ Coming soon!
 
 [Lab Practical](https://bioinformaticsdotca.github.io/htseq_2017_module3_lab)  
 
+## Integrated Assignment
+
+[Integrated Assignment](https://bioinformaticsdotca.github.io/HTSeq_2017_IA_lab)  
+
 ***
 
 # Day 2 <a id="day2"></a>
@@ -89,9 +93,5 @@ Coming soon!
 [Lab Practical](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab)
 
 [Supplemental](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement)
-
-## Integrated Assignment
-
-[Integrated Assignment](https://bioinformaticsdotca.github.io/HTSeq_2017_IA_lab)
 
 ***
