@@ -96,3 +96,6 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 [Supplemental](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement)
 
 ***
+## Survey
+
+Thank you for attending the Informatics on High-throughut Sequencing Data workshop!  Help us make this workshop better by filling out [our survey](https://goo.gl/forms/TrBeGo0pZinTjsTh2).
