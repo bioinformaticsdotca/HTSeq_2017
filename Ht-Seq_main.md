@@ -31,19 +31,21 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Ann Meyer</font>*
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod0)
-
 ## Module 1: Introduction to High-throughput Sequencing
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod1)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/12kQAN92UFGpcMKLWoJ-UF9j0fwftz4Le/view?usp=sharing)
+
+[Recording](https://youtu.be/g4m8drG1FEs)
 
 ## Module 2: Data Visualization
 
 *<font color="#827e9c">Florence Cavalli</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod2)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1HbJTWKIZC-p-YiObIHeO6tVQih7Il5zX/view?usp=sharing)
+
+[Recording](https://youtu.be/ZrHGcVgMi28)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/HTSeq_2017_module2_lab)
 
@@ -51,11 +53,13 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod3)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1yjQHWHhIVz8zOGW97RmVAdweiRQO2-ie/view?usp=sharing)
+
+[Recording](https://youtu.be/HHJaAP03wBc)
 
 [Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/AWS_setup)
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod3b)  
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/14jC91Rp4nnCRH21wUQ8kfcJoEHffwC2c/view?usp=sharing)  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbw46.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbw46.dyndns.info/private/CBWNY.ppk).
 
@@ -73,7 +77,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod4)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1giyKpqvqZtIqssWFI6LAPn7OpXew0piH/view?usp=sharing)
+
+[Recording](https://youtu.be/-_zx46jyfRo)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/htseq_2017_module4_lab)  
 
@@ -81,7 +87,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod5)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1n77tWbFgYlQAMa928uHkQVbkMOk5GxFp/view?usp=sharing)
+
+[Recording](https://youtu.be/ZuRawrHbhaU)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/htseq_2017_module5_lab)  
 
@@ -89,7 +97,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/htseq-2017-mod6)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/112CL9PitgRWsAyDasTTtJFJcBtwogLJp/view?usp=sharing)
+
+[Recording](https://youtu.be/5wvGapmA5zM)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab)
 
