@@ -6,6 +6,7 @@ header1: Workshop Pages for Students
 header2: Informatics on High-Throughput Sequencing Data
 image: /site_images/CBW_High-throughput_icon.jpg
 keywords: assess sequence quality, map sequence data onto reference genome, integrate biological context
+description: Course covers the bioinformatics tools available for managing and interpreting high-throughput sequencing data with a focus on Illumina reads.
 instructors: Jared Simpson, Florence Cavalli, Mathieu Bourgey
 length: 2 days
 ---
