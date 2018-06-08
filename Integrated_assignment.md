@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: Informatics on High-Throughput Sequencing Data
 image: /site_images/CBW_High-throughput_icon.jpg
 home: https://bioinformaticsdotca.github.io/htseq_2017
+description: HT-Seq Integrative Assignment 
+author: Mathieu Bourgey and Florence Cavalli
+modified: May 25th, 2017
 ---
 
 
